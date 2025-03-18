@@ -30,3 +30,14 @@ function adicionarAmigo() {
 function atualizarListaAmigos() {
     const listaAmigos = document.getElementById('listaAmigos');
     listaAmigos.innerHTML = "";
+
+    amigos.forEach(amigo => {
+        const li = document.createElement ('li');
+        li.textContent = amigo;
+        listaAmigos.appendChild(li);
+    });
+
+    listaAmigos.style.display = "block";
+}
+
+    function sortearAmigo () {
