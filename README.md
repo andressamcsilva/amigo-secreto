@@ -1,7 +1,9 @@
 <h1>CHALLENGE - AMIGO SECRETO 🎁 </h1>
 
-<h2> 📍 Sobre</h2>
-<p>Este projeto faz parte do Challenge - Amigo Secreto, proposto pelo programa ONE (Oracle Next Education) em parceria com a Alura. O desafio consiste em desenvolver um sorteador de amigo secreto utilizando JavaScript.</p>
+<h2> 📍Sobre</h2>
+<p>Este projeto faz parte do Challenge - Amigo Secreto, proposto pelo programa ONE (Oracle Next Education) em parceria com a Alura. O desafio consiste em desenvolver um sorteador de amigo secreto utilizando JavaScript.
+
+Você pode acessar o projeto [Amigo Secreto](https://amigo-secreto-pi-taupe.vercel.app/) clicando aqui. </p>
 
 <h2>✅ Funcionalidades </h2>
 
