@@ -45,3 +45,9 @@ function atualizarListaAmigos() {
             alert("Por favor, insira um nome válido.");
             return;
         }
+
+        if (sorteados.length === amigos.length) {
+            alert("Todos os amigos já foram sorteados! A rodada será reiniciada.");
+            novoSorteio();
+            return;
+        }
