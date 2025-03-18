@@ -3,3 +3,7 @@
 let amigos = [];
 
 let sorteados = [];
+
+function adicionarAmigo() {
+    const inputAmigo = document.getElementById('amigo');
+    const nomeAmigo = inputAmigo.value.trim();
