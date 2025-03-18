@@ -41,3 +41,7 @@ function atualizarListaAmigos() {
 }
 
     function sortearAmigo () {
+        if (amigos.length === 0) {
+            alert("Por favor, insira um nome válido.");
+            return;
+        }
