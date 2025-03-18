@@ -51,3 +51,11 @@ function atualizarListaAmigos() {
             novoSorteio();
             return;
         }
+
+        let amigoSorteado;
+        do {
+            const indiceSorteado = Math.floor(Math.random() * amigos.length);
+            amigoSorteado = amigos [indiceSorteado];
+        } while (sorteados.includes(amigoSorteado)); 
+
+        sorteados.push(amigoSorteado);
