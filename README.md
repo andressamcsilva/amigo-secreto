@@ -13,7 +13,7 @@
 * Reiniciar automaticamente quando todos os amigos forem sorteados
 
 <h2> 📷 Demonstração </h2>
-<p align="center">
+<p align="text-align: left;">
   <img src="https://github.com/user-attachments/assets/d5a88413-0135-4568-bd4c-0db90e8e7b02" width="200" style="margin-right: 10px;">
   <img src="https://github.com/user-attachments/assets/9e93cd5f-de3a-4fb6-a09f-ddf951b0886f" width="200" style="margin-right: 10px;">
   <img src="https://github.com/user-attachments/assets/7913ad27-fa70-4016-8bc9-fcc0dda13e84" width="200">
