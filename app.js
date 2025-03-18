@@ -59,3 +59,10 @@ function atualizarListaAmigos() {
         } while (sorteados.includes(amigoSorteado)); 
 
         sorteados.push(amigoSorteado);
+
+        document.getElementById('resultado').innerHTML = `O amigo sorteado é: ${amigoSorteado}`;
+
+        setTimeout(() => {
+            document.getElementById('listaAmigos').style.display = "none";
+        }, 500); 
+    }
