@@ -15,10 +15,10 @@ function adicionarAmigo() {
 }
 
     if (amigos.includes(nomeAmigo)) {
-    alert(`O nome "${nomeAmigo}" já foi adicionado. Insira um novo nome!`);
-    inputAmigo.value = "";
-    inputAmigo.focus();
-    return;
+        alert(`O nome "${nomeAmigo}" já foi adicionado. Insira um novo nome!`);
+        inputAmigo.value = "";
+        inputAmigo.focus();
+        return;
     }
 
     amigos.push(nomeAmigo);
@@ -65,4 +65,14 @@ function atualizarListaAmigos() {
         setTimeout(() => {
             document.getElementById('listaAmigos').style.display = "none";
         }, 500); 
+    }
+
+    function novoSorteio() {
+        amigos = [];
+        sorteados = [];
+        atualizarListaAmigos();
+        document.getElementById('resultado').innerHTML = "";
+        document.getElementById('amigo').value = "";
+        document.getElementById('amigo').focus();
+        document.getElementById('listaAmigos').style.display = "block";
     }
